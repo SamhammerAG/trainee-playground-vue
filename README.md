@@ -5,7 +5,7 @@
 1. Install [Visual Studio Community 2019 Edition](https://visualstudio.microsoft.com/de/vs/) for Backend development
 2. Install [Visual Studio Code](https://code.visualstudio.com/) for Frontend development
    1. Install remote container support extension for vs code: ms-vscode-remote.remote-containers
-3. Install Docker for devcontainer support
+3. Install [Docker](https://docs.docker.com/docker-for-windows/install/) for devcontainer support
 
 ## Start the project
 
