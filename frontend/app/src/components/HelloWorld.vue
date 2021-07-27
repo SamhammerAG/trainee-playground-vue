@@ -20,10 +20,9 @@ export default defineComponent({
         DataService.getAll()
           .then((responseData: string) => {
             this.text = responseData;
-            //console.log(responseData);
           })
           .catch((e: Error) => {
-            //console.log(e);
+            console.log(e);
           });
       }
   },
