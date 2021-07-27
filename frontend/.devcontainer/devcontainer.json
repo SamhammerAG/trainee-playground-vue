@@ -8,7 +8,16 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
-		"octref.vetur"
+		"octref.vetur",
+		"editorconfig.editorconfig",
+		"p-de-jong.vscode-html-scss",
+		"ms-vscode.powershell",
+		"formulahendry.auto-rename-tag",
+		"christian-kohler.npm-intellisense",
+		"msjsdiag.debugger-for-chrome",
+		"ishiyama.vue-autoimport",
+		"dariofuzinato.vue-peek",
+		"mrmlnc.vscode-scss"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
