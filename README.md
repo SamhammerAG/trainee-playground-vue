@@ -2,7 +2,7 @@
 
 ## Installation Guide
 
-1. Install [Visual Studio Community 2019 Edition](https://visualstudio.microsoft.com/de/vs/) for Backend development
+1. Install [Visual Studio Community 2019 Edition](https://visualstudio.microsoft.com/de/vs/) for Backend development (with module ASP.NET and Web development)
 2. Install [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks) if not installed with Visual Studio
 3. Install [Visual Studio Code](https://code.visualstudio.com/) for Frontend development
    1. Install remote container support extension for vs code: ms-vscode-remote.remote-containers
