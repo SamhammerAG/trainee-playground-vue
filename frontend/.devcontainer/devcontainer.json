@@ -7,24 +7,38 @@
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dbaeumer.vscode-eslint",
-		"octref.vetur",
 		"editorconfig.editorconfig",
 		"p-de-jong.vscode-html-scss",
-		"ms-vscode.powershell",
 		"formulahendry.auto-rename-tag",
 		"christian-kohler.npm-intellisense",
 		"msjsdiag.debugger-for-chrome",
-		"ishiyama.vue-autoimport",
+		"Vue.volar",
+		"Vue.vscode-typescript-vue-plugin",
+		"stylelint.vscode-stylelint",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"YoavBls.pretty-ts-errors",
+		"vitest.explorer",
+		"lokalise.i18n-ally",
+		"mikestead.dotenv",
+		"steoates.autoimport",
+		"streetsidesoftware.code-spell-checker",
+		"naumovs.color-highlight",
+		"natqe.reload",
+		"spmeesseman.vscode-taskexplorer",
+		"hbenl.vscode-test-explorer",
+		"mxsdev.typescript-explorer",
 		"dariofuzinato.vue-peek",
-		"mrmlnc.vscode-scss"
+		"ishiyama.vue-autoimport",
+		"vuetifyjs.vuetify-vscode",
+		"gamunu.vscode-yarn"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8080
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	"postCreateCommand": "cd ./app && yarn install"
 	// Uncomment to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
 	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust

@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld />
-  </div>
+    <VContainer>
+        <VCard>
+            <VCardTitle> {{ $t("home.headline") }} </VCardTitle>
+            <VCardText v-if="text">
+                {{ text }}
+            </VCardText>
+        </VCard>
+    </VContainer>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+<script setup lang="ts">
+import HomeService from "@/services/HomeService";
 
-export default defineComponent({
-  name: "Home",
-  components: {
-    HelloWorld,
-  },
+const text = ref<string>();
+
+onBeforeMount(async () => {
+    text.value = await HomeService.get();
 });
 </script>

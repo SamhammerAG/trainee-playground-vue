@@ -1,0 +1,17 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "typings/**/*.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.json"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "composite": true,
+    "resolvePackageJsonExports": true,
+    "types": ["@vue-macros/define-models/macros-global", "@types/node/path.d.ts"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "vueCompilerOptions": {
+    "plugins": ["@vue-macros/volar/define-models"]
+  }
+}

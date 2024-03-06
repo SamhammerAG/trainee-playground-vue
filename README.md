@@ -16,6 +16,5 @@
 4. Open frontend folder with Visual Studio Code
 5. Click on reopen in container on the bottom right corner if the message box pops up -> everything will be set up for the user
 6. Navigate with the terminal into the app folder
-7. Type: `npm install`
-8. Type: `npm run serve`
-9. Open localhost:8080 in the browser -> if under the header "Hello World site" the text "hello world" is shown everything works fine
+7. Type: `npm run serve`
+8. Open localhost:8080 in the browser -> if under the header "Hello World site" the text "hello world" is shown everything works fine

@@ -1,0 +1,7 @@
+FROM nginxinc/nginx-unprivileged:mainline-alpine
+
+USER root
+RUN sed -i -E "s/access_log(.*?);/access_log off;/" /etc/nginx/nginx.conf
+
+USER 101
+COPY dist /usr/share/nginx/html
