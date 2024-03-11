@@ -1,4 +1,5 @@
-﻿using HealthChecks.UI.Client;
+﻿using System;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.DependencyInjection;
@@ -8,7 +9,6 @@ using Samhammer.AspNetCore.HealthChecks.Prtg;
 using Samhammer.Options;
 using Samhammer.Web.Common.Extensions;
 using Serilog;
-using System;
 using Microsoft.Extensions.Logging;
 using Samhammer.DependencyInjection;
 using TraineePlayground;
