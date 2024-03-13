@@ -16,6 +16,11 @@ analyse.html*
 !.yarn/versions
 .pnp.*
 
+.vscode/**
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
 node_modules
 .DS_Store
 dist
@@ -28,7 +33,6 @@ junit.xml
 /cypress/screenshots/
 
 # Editor directories and files
-!.vscode/extensions.json
 .idea
 *.suo
 *.ntvs*
