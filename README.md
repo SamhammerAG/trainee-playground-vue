@@ -6,7 +6,6 @@
 2. Install [.NET Core 6.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks) if not installed with Visual Studio
 3. Install [Visual Studio Code](https://code.visualstudio.com/) for Frontend development
    1. Install remote container support extension for vs code: ms-vscode-remote.remote-containers
-4. Install [Docker](https://docs.docker.com/docker-for-windows/install/) for devcontainer support
 
 ## Start the project
 
