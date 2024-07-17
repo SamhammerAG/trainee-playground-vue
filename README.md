@@ -18,3 +18,21 @@
 6. Navigate with the terminal into the app folder
 7. Type: `yarn run dev`
 8. Open localhost:8080 in the browser -> if under the header "Hello World site" the text "hello world" is shown everything works fine
+
+## Your Task
+
+### api usermanagment
+- create user firstName, lastName, email
+- get user details
+- get user list
+- delete user
+- validate user data + unit test
+
+user list in memory or filesystem is ok. db only when you want, maybe sqlite.
+ 
+### vuejs
+  - userlist: axios VDataTableServer
+  - user detail
+  - userlist: server side filter + sorting
+  - user delete
+  - user create
