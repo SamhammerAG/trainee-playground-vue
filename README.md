@@ -30,8 +30,8 @@
 
 user list in memory or filesystem is ok. db only when you want, maybe sqlite.
  
-### vuejs
-  - userlist: axios VDataTableServer
+### vuejs (see https://vuejs.org/guide/introduction.html)
+  - userlist: axios VDataTableServer (see https://vuetifyjs.com/en/components/data-tables/basics/#usage)
   - user detail
   - userlist: server side filter + sorting
   - user delete
