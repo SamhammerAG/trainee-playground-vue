@@ -3,7 +3,7 @@
 ## Installation Guide
 
 1. Install [Visual Studio Community 2022 Edition](https://visualstudio.microsoft.com/de/vs/) for Backend development (with module ASP.NET and Web development)
-2. Install [.NET Core 6.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks) if not installed with Visual Studio
+2. Install [.NET Core 8.0 SDK](https://dotnet.microsoft.com/download/visual-studio-sdks) if not installed with Visual Studio
 3. Install [Visual Studio Code](https://code.visualstudio.com/) for Frontend development
    1. Install remote container support extension for vs code: ms-vscode-remote.remote-containers
 
