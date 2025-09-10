@@ -20,7 +20,9 @@
           "content",
           "if",
           "use",
-          "forward"
+          "forward",
+          "at-root",
+          "each"
         ]
       }
     ],

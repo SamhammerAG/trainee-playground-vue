@@ -4,6 +4,6 @@
   "compilerOptions": {
     "composite": true,
     "lib": [],
-    "types": ["node", "jsdom", "@vue-macros/define-models/macros-global"]
+    "types": ["node", "jsdom"]
   }
 }

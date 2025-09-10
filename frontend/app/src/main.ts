@@ -1,5 +1,4 @@
 import { createApp } from "vue";
-import { vMaska } from "maska";
 
 import App from "./App.vue";
 import router from "./router";
@@ -10,7 +9,6 @@ import VRowSingle from "./components/VRowSingle.vue";
 
 const app = createApp(App);
 
-app.directive("maska", vMaska);
 app.component("VRowSingle", VRowSingle);
 app.use(vuetify);
 app.use(router);

@@ -1,7 +1,8 @@
 @use "@/styles/settings";
-@import "fonts";
-@import "scroll";
-@import "links";
+@use "fonts";
+@use "scroll";
+@use "animations";
+@use "links";
 
 html {
   // Only show main scrollbar if the page is scrollable

@@ -15,5 +15,6 @@ import NavigationBar from "./views/app/NavigationBar.vue";
 </script>
 
 <style lang="scss">
-@import "@/styles/global";
+@use "@/styles/settings";
+@use "@/styles/global";
 </style>

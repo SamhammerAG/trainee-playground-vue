@@ -31,5 +31,9 @@
   "i18n-ally.sortCompare": "locale",
   "vue.complete.casing.props": "camel",
   "vue.complete.casing.tags": "pascal",
-  "files.exclude": {}
+  "files.exclude": {},
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    ".env": ".env.*"
+  }
 }
