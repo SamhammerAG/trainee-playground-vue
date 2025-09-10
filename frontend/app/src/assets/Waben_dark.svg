@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" width="300" height="294" viewBox="0 0 300 294">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2949ae;
+        isolation: isolate;
+        opacity: .3;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Waben">
+    <path id="Pfad_263" data-name="Pfad 263" class="cls-1" d="M155.6,96.5h-70.2l-35.1,60.8,35.1,60.8h70.2l35.1-60.8-35.1-60.8Z"/>
+    <path id="Pfad_264" data-name="Pfad 264" class="cls-1" d="M300,232.7h-69.2l-35.1,60.8,104.3.5v-61.3Z"/>
+    <path id="Pfad_265" data-name="Pfad 265" class="cls-1" d="M267.8,90h-46.2l-23.1,40,23.1,40h46.2l23.1-40-23.1-40Z"/>
+    <path id="Pfad_266" data-name="Pfad 266" class="cls-1" d="M167.4,294l16.6-28.7-23.1-40h-46.2l-23.1,40,16.6,28.7h59.2Z"/>
+    <path id="Pfad_267" data-name="Pfad 267" class="cls-1" d="M207.1,157.4h-46.2l-23.1,40,23.1,40h46.2l23.1-40-23.1-40Z"/>
+    <path id="Pfad_268" data-name="Pfad 268" class="cls-1" d="M103.2,49.2h-23.3l-11.6,20.1,11.6,20.1h23.3l11.6-20.1s-11.6-20.1-11.6-20.1Z"/>
+    <path id="Pfad_269" data-name="Pfad 269" class="cls-1" d="M108.4,15.7h-11.3l-5.6,9.8,5.6,9.8h11.3l5.6-9.8-5.6-9.8Z"/>
+    <path id="Pfad_270" data-name="Pfad 270" class="cls-1" d="M84.3,185.2h-46.2l-23.1,40,23.1,40h46.2l23.1-40-23.1-40h0Z"/>
+    <path id="Pfad_271" data-name="Pfad 271" class="cls-1" d="M190.2,241.8h-18.9l-9.4,16.3,9.4,16.3h18.9l9.4-16.3-9.4-16.3Z"/>
+    <path id="Pfad_272" data-name="Pfad 272" class="cls-1" d="M166.1,77.1h-18.9l-9.4,16.3,9.4,16.3h18.9l9.4-16.3s-9.4-16.3-9.4-16.3Z"/>
+    <path id="Pfad_273" data-name="Pfad 273" class="cls-1" d="M70.7,113.6h-18.9l-9.4,16.3,9.4,16.3h18.9l9.4-16.3s-9.4-16.3-9.4-16.3Z"/>
+    <path id="Pfad_274" data-name="Pfad 274" class="cls-1" d="M300,124.7h-13.1l-9.4,16.3,9.4,16.3h13.1v-32.7.1Z"/>
+  </g>
+</svg>

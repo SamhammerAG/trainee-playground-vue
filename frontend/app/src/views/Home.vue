@@ -10,11 +10,23 @@
 </template>
 
 <script setup lang="ts">
+import useNotification from "@/composables/notification";
 import HomeService from "@/services/HomeService";
+
+const notify = useNotification();
 
 const text = ref<string>();
 
 onBeforeMount(async () => {
-    text.value = await HomeService.get();
+    loadText();
 });
+
+const loadText = async () => {
+    try {
+        text.value = await HomeService.get();
+    } catch (e) {
+        console.error("Failed to load text", e);
+        notify.error("error.default");
+    }
+};
 </script>

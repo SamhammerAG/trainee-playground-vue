@@ -2,8 +2,10 @@
   "about.branch": "Branch",
   "about.date": "Build Datum",
   "about.headline": "App Informationen",
+  "error.default": "Es ist ein Fehler aufgetreten",
   "home.headline": "Home",
   "navigation.about": "Über",
   "navigation.collapse": "Zusammenklappen",
-  "navigation.expand": "Aufklappen"
+  "navigation.expand": "Aufklappen",
+  "navigation.home": "Home"
 }

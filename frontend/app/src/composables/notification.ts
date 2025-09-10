@@ -1,13 +1,12 @@
-import { defineStore } from "pinia";
 import { ref } from "vue";
 import { useI18n } from "vue-i18n";
 
-export const useNotificationStore = defineStore("notification", () => {
-    const i18n = useI18n();
+const visible = ref(false);
+const translation = ref("");
+const notificationColor = ref("");
 
-    const visible = ref(false);
-    const translation = ref("");
-    const notificationColor = ref("");
+export default function useNotification() {
+    const i18n = useI18n();
 
     const success = (translationOrKey: string, alreadyTranslated = false, namedParameters?: Record<string, unknown>) => {
         show(translationOrKey, "success", alreadyTranslated, namedParameters);
@@ -32,4 +31,4 @@ export const useNotificationStore = defineStore("notification", () => {
     };
 
     return { visible, translation, color: notificationColor, show, success, warning, error, info };
-});
+}

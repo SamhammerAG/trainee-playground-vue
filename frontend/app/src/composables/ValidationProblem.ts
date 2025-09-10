@@ -1,8 +1,8 @@
 import type { AxiosError } from "axios";
 import { lowerFirst, keys, first } from "lodash";
 import { useI18n } from "vue-i18n";
-import { useNotificationStore } from "@/stores/notificationStore";
 import type { ErrorInfoContract } from "@/contracts/ErrorInfoContract";
+import useNotification from "./notification";
 
 export interface ValidationProblemDetails {
     status?: number;
@@ -17,7 +17,7 @@ export interface ValidationError {
 
 export default function useValidationProblem(globalPrefix: string, fallbackKey: string) {
     const i18n = useI18n();
-    const notify = useNotificationStore();
+    const notify = useNotification();
 
     const getErrorTranslations = (error: AxiosError) => {
         const record: Record<string, string[]> = {};
@@ -28,7 +28,7 @@ export default function useValidationProblem(globalPrefix: string, fallbackKey: 
         if (errors) {
             keys(errors).forEach((fieldKey) => {
                 const errorKeys = errors[fieldKey];
-                record[lowerFirst(fieldKey)] = errorKeys.map((errorKey) => {
+                record[lowerFirst(fieldKey)] = errorKeys!.map((errorKey) => {
                     const translationKey = getErrorTranslationKey(fieldKey, errorKey);
                     return i18n.t(translationKey);
                 });
@@ -58,7 +58,7 @@ export default function useValidationProblem(globalPrefix: string, fallbackKey: 
             const firstError = first(validationProblem.errors[firstFieldKey])!;
 
             const translationKey = getErrorTranslationKey(firstFieldKey, firstError);
-            return i18n.t(translationKey);
+            return i18n.t(translationKey, { ...validationProblem });
         }
 
         if (apiErrorInfo?.errorCode) {
